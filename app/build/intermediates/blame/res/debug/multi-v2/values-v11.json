@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dkilp/Projects/Claimcheck/SDK/AndroidStudioProjects/IDOne/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/dkilp/Projects/Claimcheck/SDK/AndroidStudioProjects/IDOne/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "5,17,9",
+                        "startColumns": "1,1,1",
+                        "startOffsets": "193,722,319",
+                        "endLines": "7,19,15",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "316,872,719"
+                    },
+                    "to": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,183,338",
+                        "endLines": "4,7,14",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "178,333,738"
+                    }
+                }
+            ]
+        }
+    ]
+}

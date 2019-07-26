@@ -1,0 +1,4 @@
+#Fri Jul 26 17:08:04 EDT 2019
+base.0=/home/dkilp/Projects/Claimcheck/SDK/AndroidStudioProjects/IDOne/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

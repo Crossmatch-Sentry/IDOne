@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cardtypemanarray">
+		<item>Athena</item>
+		<item>CardLogix</item>
+		<item>Gemalto</item>
+		<item>Giesecke &amp; Devrient</item>
+		<item>Hitachi</item>
+		<item>Keycorp Limited</item>
+		<item>NXP</item>
+		<item>Oberthur</item>
+		<item>SafeNet</item>
+		<item>Sagem Orga</item>
+		<item>TecSec</item>
+		<item>Other/Don\'t Know</item>
+	</string-array>
+    <color name="black_overlay">#66000000</color>
+    <color name="idblack">#000000</color>
+    <color name="idgraymain">#E4E4E4</color>
+    <color name="idredmain">#bb2719</color>
+    <color name="idwhite">#FFFFFF</color>
+    <color name="pressed_idevityactionbar">#CCBB2719</color>
+    <color name="text_tab_selected">#ffffff</color>
+    <color name="text_tab_unselected">#bb2719</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="inputmarginbottom">0dp</dimen>
+    <dimen name="inputmarginleft">4dp</dimen>
+    <dimen name="inputmargintop">8dp</dimen>
+    <dimen name="title_text_size">24dp</dimen>
+    <string name="TODO">TODO</string>
+    <string name="TabCert_Title">CAK</string>
+    <string name="TabChuid_Title">CHUID Signing</string>
+    <string name="TabLog_Title">Log</string>
+    <string name="TabRead_Title">CHUID Data</string>
+    <string name="action_about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="agency_code">Agency</string>
+    <string name="app_name">ID One</string>
+    <string name="appname_version">IDevity IDOne Reader, v1.8 REL</string>
+    <string name="button_0">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_back">Back</string>
+    <string name="button_dummy"/>
+    <string name="button_enter">Enter</string>
+    <string name="cake_pic">Cake Picture</string>
+    <string name="cardholder_photo">Cardholder Photo</string>
+    <string name="certificate_path">Certificate Path</string>
+    <string name="certificate_pop">Private Key Proof of Possession</string>
+    <string name="certificate_validation">Validity Period</string>
+    <string name="copyright">Copyright IDevity 2013 - 2015. All rights reserved.</string>
+    <string name="cred_number">Credential Number</string>
+    <string name="eastercardissuedate">Card Issue Date:</string>
+    <string name="eastercardissuer">Card Issuer:</string>
+    <string name="eastercardother">Other/Unknown Manufacturer:</string>
+    <string name="eastercardtype">Select Card Manufacturer:</string>
+    <string name="easterinstructions1">Please enter the following information, if
+		possible.</string>
+    <string name="easterinstructions2">The information below will be used to identify
+		mobile device and card support requirements.</string>
+    <string name="easterinstructions3">Select the Share option from the toolbar and email
+		to support@idevity.com.</string>
+    <string name="easterprivacy">Privacy: Information provided will not be used for
+		any purpose other than to assess support for mobile device models and
+		card manufacturers.</string>
+    <string name="expiry_date">Expiration</string>
+    <string name="feedback">
+		To provide feedback:
+		<a href="mailto:support@idevity.com?subject=Android App">support@idevity.com</a>
+	</string>
+    <string name="global_id">GUID</string>
+    <string name="idevity">IDevity</string>
+    <string name="idevity_id_logo">IDevity ID Logo</string>
+    <string name="idevity_logo">IDevity Logo</string>
+    <string name="instructions_1">Hold your smart card to the back of your device.
+	</string>
+    <string name="instructions_2">This app supports PIV, PIV-I, CIV and TWIC smart
+		cards.</string>
+    <string name="issuer">Issuer</string>
+    <string name="nfc_disabled_warn">WARNING: NFC is NOT Enabled!</string>
+    <string name="nfc_disabled_warn_or_usb_not_plugged_in">Enable NFC or Plug in OTG USB Smart Card Reader
+	</string>
+    <string name="nfc_disclaimer">*There is a known issue reading cards with your
+		device configuration:</string>
+    <string name="nfc_disclaimer_more_info">
+		<a href="https://code.google.com/p/android/issues/detail?id=37882">Android Issue 37882</a>
+	</string>
+    <string name="no_cak1">Your smart card does not have an asymmetric Card
+		Authentication Key (CAK) or corresponding certificate.</string>
+    <string name="no_cak2">Please contact your smart card issuer for more
+		information.</string>
+    <string name="openssl_ack">
+		This product includes software developed by the OpenSSL Project for
+		use in the OpenSSL Toolkit. (
+		<a href="http://www.openssl.org/">http://www.openssl.org/</a>
+		)
+	</string>
+    <string name="org_category">Category</string>
+    <string name="org_id">Organization ID</string>
+    <string name="person_id">Person ID</string>
+    <string name="pin_val_placeholder">********</string>
+    <string name="pininstructions"> Please enter your PIN. </string>
+    <string name="plug_in_usb_warn">Plug in OTG USB Smart Card Reader</string>
+    <string name="poa_code">Affiliation</string>
+    <string name="pref_default_email">Default Email for Sharing</string>
+    <string name="pref_default_email_summary">Set a default email address to send logs and data
+		values when Sharing is selected.</string>
+    <string name="pref_enable_pop_summary">Select this option to perform CAK authentication
+		[private key Proof of Possession check]. (requires restart)</string>
+    <string name="pref_enable_pop_title">Enable CAK POP</string>
+    <string name="pref_show_debug_summary">Select this option to capture log events in detail
+		(debug) mode. (requires restart)</string>
+    <string name="pref_show_debug_title">Debug Mode</string>
+    <string name="pref_show_log_summary">Select this option to display the log of the NFC
+		read as a tab.</string>
+    <string name="pref_show_log_title">Display Log</string>
+    <string name="progress_text">Reading card…</string>
+    <string name="sign_valid">CHUID Signature Match</string>
+    <string name="signing_valid">Signing Cert Valid</string>
+    <string name="splashscreen_caption">Enterprise Identity, Authentication, and Consumer
+		Identity</string>
+    <string name="subject">Subject</string>
+    <string name="supportemail">support@idevity.com</string>
+    <string name="system_code">System Code</string>
+    <string name="title_activity_easter">Feedback</string>
+    <string name="title_activity_idevity_info">Info</string>
+    <string name="title_activity_pin">PIN</string>
+    <string name="title_activity_read_main">ID One</string>
+    <string name="title_activity_reading_progress">In progress</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="valid_from">Issued</string>
+    <string name="valid_to">Expires</string>
+    <string name="warranties">Use of this application implies no implicit
+		warranties.</string>
+    <string name="website">
+		<a href="http://www.idevity.com">www.idevity.com</a>
+	</string>
+    <string name="zone10_agency">Department of Homeland Security</string>
+    <string name="zone10_agency_text">Agency/Department</string>
+    <string name="zone14_expdate">2018 Sep 4</string>
+    <string name="zone14_expdate_text">Expires</string>
+    <string name="zone19_expdate">SEP2018</string>
+    <string name="zone20_affiliation">DHS</string>
+    <string name="zone2_first_middle_name">John H.</string>
+    <string name="zone2_lastname">Doe</string>
+    <string name="zone8_affiliation">Contractor</string>
+    <string name="zone8_affiliation_text">Affilication</string>
+    <style name="ActionBar.Solid.idevityMainapptheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+		<item name="android:background">@drawable/ab_solid_idevityactionbar</item>
+		<item name="android:backgroundStacked">@drawable/ab_stacked_solid_idevityactionbar</item>
+		<item name="android:backgroundSplit">@drawable/ab_bottom_solid_idevityactionbar</item>
+		<item name="android:progressBarStyle">@style/ProgressBar.idevityMainapptheme</item>
+	</style>
+    <style name="ActionBar.Transparent.idevityMainapptheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+		<item name="android:background">@drawable/ab_transparent_idevityactionbar</item>
+		<item name="android:progressBarStyle">@style/ProgressBar.idevityMainapptheme</item>
+	</style>
+    <style name="ActionBarTabStyle.idevityMainapptheme" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+		<item name="android:background">@drawable/tab_indicator_ab_idevityactionbar</item>
+	</style>
+    <style name="ActionButton.CloseMode.idevityMainapptheme" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+		<item name="android:background">@drawable/btn_cab_done_idevityactionbar</item>
+	</style>
+    <style name="ButtonBar" parent="Theme.idevityMainapptheme">
+		<item name="android:paddingLeft">2dp</item>
+		<item name="android:paddingTop">5dp</item>
+		<item name="android:paddingRight">2dp</item>
+		<item name="android:paddingBottom">0dp</item>
+		<item name="android:background">@android:drawable/bottom_bar</item>
+	</style>
+    <style name="ButtonBarButton"/>
+    <style name="Buttons" parent="Theme.idevityMainapptheme">
+		<!-- Edit text customizations -->
+		<item name="android:textColor">@color/idredmain</item>
+		<item name="android:textStyle">bold</item>
+		<!-- <item name="android:layout_width">0dp</item> -->
+		<!-- <item name="android:layout_height">wrap_content</item> -->
+	</style>
+    <style name="DropDownListView.idevityMainapptheme" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+		<item name="android:listSelector">@drawable/selectable_background_idevityactionbar</item>
+	</style>
+    <style name="DropDownNav.idevityMainapptheme" parent="@android:style/Widget.Holo.Light.Spinner">
+		<item name="android:background">@drawable/spinner_background_ab_idevityactionbar</item>
+		<item name="android:popupBackground">@drawable/menu_dropdown_panel_idevityactionbar</item>
+		<item name="android:dropDownSelector">@drawable/selectable_background_idevityactionbar</item>
+	</style>
+    <style name="FullscreenTheme" parent="Theme.idevityMainapptheme">
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowBackground">@null</item>
+		<item name="buttonBarStyle">@style/ButtonBar</item>
+		<item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+	</style>
+    <style name="Inputtext" parent="Theme.idevityMainapptheme">
+		<!-- Edit text customizations -->
+		<item name="android:textColor">@color/idblack</item>
+		<!-- <item name="android:textStyle">bold</item> -->
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:gravity">right</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">@dimen/inputmarginbottom</item>
+		<item name="android:layout_marginRight">@dimen/inputmarginleft</item>
+		<item name="android:layout_marginTop">@dimen/inputmargintop</item>
+	</style>
+    <style name="Inputtext1" parent="Theme.idevityMainapptheme">
+		<!-- Edit text customizations -->
+		<item name="android:textColor">@color/idblack</item>
+		<!-- <item name="android:textStyle">bold</item> -->
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">@dimen/inputmarginbottom</item>
+		<item name="android:layout_marginRight">@dimen/inputmarginleft</item>
+		<item name="android:layout_marginTop">@dimen/inputmargintop</item>
+	</style>
+    <style name="Inputtext_bold" parent="Theme.idevityMainapptheme">
+		<!-- Edit text customizations -->
+		<item name="android:textColor">@color/idblack</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">@dimen/inputmarginbottom</item>
+		<item name="android:layout_marginRight">@dimen/inputmarginleft</item>
+		<item name="android:layout_marginTop">@dimen/inputmargintop</item>
+	</style>
+    <style name="Inputtext_bold_large" parent="Theme.idevityMainapptheme">
+		<!-- Edit text customizations -->
+		<item name="android:textColor">@color/idblack</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">@dimen/inputmarginbottom</item>
+		<item name="android:layout_marginRight">@dimen/inputmarginleft</item>
+		<item name="android:layout_marginTop">@dimen/inputmargintop</item>
+	</style>
+    <style name="Instructions" parent="Theme.idevityMainapptheme">
+		<!-- Edit Instructions customizations -->
+		<item name="android:textColor">@color/idblack</item>
+		<!--<item name="android:textStyle">bold</item> -->
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+    <style name="Labels" parent="Theme.idevityMainapptheme">
+		<!-- Label customizations -->
+		<item name="android:textColor">@color/idblack</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:gravity">left</item>
+		<!-- <item name="android:layout_width">wrap_content</item> -->
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">@dimen/inputmarginbottom</item>
+		<item name="android:layout_marginLeft">@dimen/inputmarginleft</item>
+		<item name="android:layout_marginTop">@dimen/inputmargintop</item>
+	</style>
+    <style name="Labelsrelative" parent="Theme.idevityMainapptheme">
+		<!-- Label customizations -->
+		<item name="android:textColor">@color/idblack</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">@dimen/inputmarginbottom</item>
+		<item name="android:layout_marginLeft">@dimen/inputmarginleft</item>
+		<item name="android:layout_marginTop">@dimen/inputmargintop</item>
+	</style>
+    <style name="Logtext" parent="Theme.idevityMainapptheme">
+		<item name="android:textColor">#00CC00</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+    <style name="PopupMenu.idevityMainapptheme" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+		<item name="android:popupBackground">@drawable/menu_dropdown_panel_idevityactionbar</item>
+	</style>
+    <style name="ProgressBar.idevityMainapptheme" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+		<item name="android:progressDrawable">@drawable/progress_horizontal_idevityactionbar</item>
+	</style>
+    <style name="Showtext" parent="Theme.idevityMainapptheme">
+		<!-- Edit text customizations -->
+		<item name="android:textColor">@color/idblack</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">@dimen/inputmarginbottom</item>
+		<item name="android:layout_marginRight">@dimen/inputmarginleft</item>
+		<item name="android:layout_marginTop">@dimen/inputmargintop</item>
+	</style>
+    <style name="Theme.idevityMainapptheme" parent="@android:style/Theme.Holo.Light">
+		<item name="android:actionBarItemBackground">@drawable/selectable_background_idevityactionbar</item>
+		<item name="android:popupMenuStyle">@style/PopupMenu.idevityMainapptheme</item>
+		<item name="android:dropDownListViewStyle">@style/DropDownListView.idevityMainapptheme</item>
+		<item name="android:actionBarTabStyle">@style/ActionBarTabStyle.idevityMainapptheme</item>
+		<item name="android:actionDropDownStyle">@style/DropDownNav.idevityMainapptheme</item>
+		<item name="android:actionBarStyle">@style/ActionBar.Transparent.idevityMainapptheme</item>
+		<item name="android:actionModeBackground">@drawable/cab_background_top_idevityactionbar</item>
+		<item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_idevityactionbar</item>
+		<item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.idevityMainapptheme</item>
+	</style>
+    <style name="Theme.idevityMainapptheme.Widget" parent="@android:style/Theme.Holo">
+		<item name="android:popupMenuStyle">@style/PopupMenu.idevityMainapptheme</item>
+		<item name="android:dropDownListViewStyle">@style/DropDownListView.idevityMainapptheme</item>
+	</style>
+    <style name="idevityActionbar" parent="android:style/Widget.Holo.Light.ActionBar">
+		<item name="android:background">@color/idwhite</item>
+		<item name="android:titleTextStyle">@style/idevityActionbar.TitleTextStyle</item>
+	</style>
+    <style name="idevityActionbar.MenuTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+		<item name="android:textColor">@color/idredmain</item>
+		<item name="android:textSize">24sp</item>
+	</style>
+    <style name="idevityActionbar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+		<item name="android:textColor">@color/idredmain</item>
+		<item name="android:textSize">@dimen/title_text_size</item>
+	</style>
+    <declare-styleable name="ButtonBarContainerTheme">
+		<attr format="reference" name="buttonBarStyle"/>
+		<attr format="reference" name="buttonBarButtonStyle"/>
+	</declare-styleable>
+</resources>

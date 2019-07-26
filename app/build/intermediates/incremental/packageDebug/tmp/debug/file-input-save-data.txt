@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Fri Jul 26 17:08:04 EDT 2019
+1.base=/home/dkilp/Projects/Claimcheck/SDK/AndroidStudioProjects/IDOne/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+0.set=DEX
+0.base=/home/dkilp/Projects/Claimcheck/SDK/AndroidStudioProjects/IDOne/app/build/intermediates/dex/debug/mergeDexDebug/out
+1.path=lib/armeabi-v7a/libOpensslFipsProvider.so
